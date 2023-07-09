@@ -14,7 +14,7 @@ class EstudianteService {
       Estudiante.create(estudiante, function (err, estudiante) {
         if (err) {
           return res.status(400).json({
-            message: "Error al agregar la evaluacion",
+            message: "Error al agregar EL ESTUDIANTE",
           });
         } else {
           return res.status(200).json({
