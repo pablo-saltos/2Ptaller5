@@ -63,7 +63,7 @@ class EstudianteService {
       });
     } catch (error) {
       return res.status(500).json({
-        message: "Error en la api de listar",
+        message: "Error en la api de evaluaciones",
       });
     }
   }
