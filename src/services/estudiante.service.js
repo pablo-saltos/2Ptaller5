@@ -35,7 +35,7 @@ class EstudianteService {
       Estudiante.findOne(function (err, estudianteEncontrado) {
         if (err) {
           return res.status(500).json({
-            message: "Error al listar las evaluaciones",
+            message: "Error al listar los estudiantes",
           });
         }
         if (!estudianteEncontrado) {
